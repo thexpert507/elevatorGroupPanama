@@ -1,0 +1,9 @@
+version: "3"
+
+services: 
+      web:
+          container_name: elevatorGroup
+          restart: always
+          build: .
+          ports: 
+              - "4300:3000"

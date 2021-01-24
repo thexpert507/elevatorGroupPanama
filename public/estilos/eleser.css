@@ -1,0 +1,76 @@
+h2.h{
+    margin-left: 10px;
+    background-color: #005e7c;
+    max-width: 400px;
+    text-align: center;
+    color: white;
+}
+
+p {
+    margin-left: 10px;
+}
+
+.aplica, .ventaja, .opcion {
+    width: 250px;;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#puntos, #puntos1, #puntos2, #puntos4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+div.galeria {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+
+img.galeria {
+    width: 350px;
+    height: 250px;
+    margin-bottom: 30px;
+    object-fit: contain;
+    box-sizing: border-box;
+}
+
+img.galeria1 {
+    width: 400px;
+    height: 500px;
+    margin-bottom: 30px;
+    object-fit: contain;
+    box-sizing: border-box;
+}
+
+img.galeria:hover, img.galeria1:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+@media (max-width:500px){
+    img.galeria1 {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+    object-fit: contain;
+    box-sizing: border-box;
+    }
+    img.galeria {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+    object-fit: contain;
+    box-sizing: border-box;
+}
+
+}
+
+
+
+

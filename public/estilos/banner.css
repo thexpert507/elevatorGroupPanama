@@ -1,0 +1,140 @@
+#banner,#banner1 {
+    margin-top: 50px;
+    position: relative;
+    height: 200px;
+    
+}
+
+#banner img,#banner1 img {
+    width: 100%;
+    height: 100%;
+}
+
+#banner .contenedor , #banner1 .contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+}
+#banner h2, #banner1 h2 {
+    font-size: 28px;
+    text-shadow: 3px 3px 2px rgb(0,0,0,0.3);
+}
+
+#banner p {
+    text-shadow: 3px 3px 2px rgb(0,0,0,0.3)
+}
+
+#banner a , #banner1 a{
+    width: 100px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    border: 3px solid white;
+}
+
+#banner a:hover , #banner1 a:hover{
+    background: rgba(255,255,255,0.2);
+}
+
+.slider {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    height: 400px;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 700%;
+    animation: cambio 80s infinite;
+    animation-direction: alternate;
+}
+.slider li {
+    list-style: none;
+    width: 100%;
+}
+.slider img {
+    width: 100vw;
+    object-fit: fill; 
+}
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    13% {margin-left: 0;}
+    
+    14% {margin-left: -100%;}
+    27% {margin-left: -100%;}
+    
+    28% {margin-left: -200%;}
+    41% {margin-left: -200%;}
+    
+    42% {margin-left: -300%;}
+    55% {margin-left: -300%;}
+    
+    56% {margin-left: -400%;}
+    70% {margin-left: -400%;}
+    
+    71% {margin-left: -500%;}
+    84% {margin-left: -500%;}
+    
+    85% {margin-left: -600%;}
+    100% {margin-left: -600%;}
+    
+}
+@media (max-width:480px){
+    #banner, #banner1 {
+        height: 220px;
+    }
+    
+    #banner img, #banner1 img {
+        height: 220px;
+    }
+}
+
+@media (min-width:480px) {
+    #banner h2 , #banner1 h2{
+        font-size: 40px;
+    }
+    
+    #banner a, #banner1 a {
+        margin-top: 25px;
+    }
+    
+    #banner , #banner1 {
+        height: 300px;
+    }
+    #banner img, #banner1 img {
+        height: 300px;
+    }
+}
+
+@media (min-width:768px) {
+    #banner, #banner1{
+        height: 400px;
+        overflow: hidden;
+    }
+    #banner img, #banner1 img {
+        height: auto;
+
+        margin-top: -100px;
+    }
+}
+
+@media (min-width:1024px) {
+   
+    #banner img, #banner1 img {
+        height: 600px;
+        margin-top: -150px;
+    }
+    #banner, #banner1 {
+        position: relative;
+        height: 400px;
+    }
+}
+
+

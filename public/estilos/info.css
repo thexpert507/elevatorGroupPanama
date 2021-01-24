@@ -1,0 +1,22 @@
+#info {
+    background-color: #1ca2bb;
+    color: white;
+    text-align: center;
+}
+
+#info .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-group {
+    margin: 20px;
+}
+
+.info-group img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #58dada;
+}

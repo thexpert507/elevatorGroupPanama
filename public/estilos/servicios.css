@@ -1,0 +1,21 @@
+#servcios  {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#servicios img {
+    width: 100%;
+    height: 300px;
+}
+
+div.servicios1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around space-between;
+}
+
+#ventas, #mantenimiento, #modernizacion {
+    width: 450px;
+    margin: auto;
+}
